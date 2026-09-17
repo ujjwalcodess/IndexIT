@@ -1,0 +1,59 @@
+# Build directories
+/build/
+/build*/
+/.dist/
+/dist/
+/out/
+/bin/
+/obj/
+Debug/
+Release/
+*.exe
+*.dll
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.obj
+*.o
+*.a
+*.so
+*.dylib
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+compile_commands.json
+
+# IDE / editor files
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.pid
+*.cache
+
+# Local test / benchmark output
+benchmarks/results/*.csv
+benchmarks/results/*.log
+
+# User-specific data
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Git internal
+.git/
